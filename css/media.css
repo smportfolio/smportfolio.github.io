@@ -1,0 +1,27 @@
+@media only screen and (max-width:992px){
+    
+    .my_grid img.img-responsive{
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    
+}
+
+.title {
+    text-shadow: -1px -1px 1px rgba(255,255,255, 0.2), 
+        1px 1px 1px rgba(255,255,255, 0.2), 
+        1px 1px 1px rgba(0,0,0, 0.7);
+} 
+
+.text_pravka a{
+    
+ padding: 10px;
+    
+}
+
+.fa {
+    
+    font-size: 20px;
+}
