@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="84.6666mm" height="169.333mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 8467 16933"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:cc="http://creativecommons.org/ns#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:svg="http://www.w3.org/2000/svg"
+ xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+ xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+ inkscape:version="0.47 r22583"
+ sodipodi:docname="home-icon6.svg">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:white;stroke-width:7.62}
+    .str6 {stroke:white;stroke-width:7.62;stroke-linejoin:round;stroke-opacity:0.000000}
+    .str4 {stroke:white;stroke-width:7.62;stroke-linecap:round;stroke-opacity:0.000000}
+    .str3 {stroke:white;stroke-width:26.1;stroke-linecap:round;stroke-opacity:0.000000}
+    .str5 {stroke:white;stroke-width:44.64;stroke-linejoin:round}
+    .str1 {stroke:white;stroke-width:79.03}
+    .str2 {stroke:white;stroke-width:118.72}
+    .fil1 {fill:none}
+    .fil2 {fill:white}
+    .fil0 {fill:white;fill-opacity:0.000000}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_586847344">
+   <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="5.1931083" inkscape:cx="12.924976" inkscape:cy="35.627307" inkscape:current-layer="layer1" showgrid="false" inkscape:document-units="px" inkscape:grid-bbox="true" inkscape:window-width="1280" inkscape:window-height="712" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:window-maximized="1">
+    <inkscape:grid type="xygrid" id="grid4242"/>
+   </sodipodi:namedview>
+   <g id="layer1" inkscape:label="Layer 1" inkscape:groupmode="layer">
+    <g id="path3982" sodipodi:nodetypes="ccccccc">
+     <g>
+      <polygon class="fil0" points="2629,8486 3628,8486 3630,7744 3107,7221 2619,7757 2629,8486 2629,8486 "/>
+      <polygon id="1" class="fil1 str0" points="2629,8486 3628,8486 3630,7744 3107,7221 2619,7757 2629,8486 2629,8486 "/>
+     </g>
+     <polygon class="fil2 str1" points="2629,8486 3628,8486 3630,7744 3107,7221 2619,7757 2629,8486 2629,8486 "/>
+    </g>
+    <g id="path3072" sodipodi:nodetypes="ccc">
+     <g>
+      <path class="fil0" d="M2443 7899l671 -678 654 660m-1325 17l0 0 0 0z"/>
+      <path id="1" class="fil1 str0" d="M2443 7899l671 -678 654 660m-1325 17l0 0 0 0z"/>
+     </g>
+     <path class="fil2 str2" d="M2443 7899l671 -678 654 660m-1325 17l0 0 0 0z"/>
+    </g>
+    <polygon id="rect5320" class="fil0 str3" points="2371,8576 3816,8576 3816,6915 2371,6915 "/>
+    <polygon id="rect3236" class="fil0 str4" points="2248,8710 3939,8710 3939,6673 2248,6673 "/>
+    <g>
+     <polygon id="rect3845" class="fil0" points="2945,8413 3311,8413 3311,7975 2945,7975 "/>
+     <polygon id="1" class="fil1 str5" points="2945,8413 3311,8413 3311,7975 2945,7975 "/>
+    </g>
+    <polygon id="rect3847" class="fil0 str6" points="2257,8719 3950,8719 3950,7026 2257,7026 "/>
+   </g>
+  </g>
+ </g>
+</svg>

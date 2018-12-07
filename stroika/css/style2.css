@@ -1,0 +1,663 @@
+* {
+	margin: 0;
+	padding: 0;
+	/* [disabled]position: relative; */
+	/* [disabled]left: -16px; */
+}
+.content .fotka .vak {
+	width: 372px;
+	text-align: center;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+     background-image: url(../img/body2.png);
+    
+}
+/* Begin of styles for the demo (you can remove them) */
+a.expand {
+	width: 90px;
+	display: block;
+	margin: 10px 0 0;
+}
+a.expand:hover {
+	height: 500px;
+}
+/* End of of styles for the demo */
+.wrapper {
+	width: 1024px;
+	margin: 0 auto;
+	background: #fff;
+    border-right:25px solid #333333;
+    
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 593px;
+	position: relative;
+	background: #333333;
+   
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	border-left: 255px solid #333333;
+	border-right: 391px solid #fff;
+	position: relative;
+    
+    
+    
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	margin-right: -100%;
+    
+}
+.content {
+	text-align: left;
+	background: #fff;
+	padding: 15px 20px;
+	font-size: 13px;
+	font-family: Georgia,Arial, sans-serif;
+	line-height: 1.5;
+	position: relative;
+}
+.content p{
+    text-indent: 50px;
+    
+}
+
+.content img{
+	
+	width: 100%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: -11px;
+}
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+    padding-top: 5px;
+	float: left;
+	width: 255px;
+	position: relative;
+	background: #333333;
+	left: -255px;
+    
+}
+ 
+.left-sidebar a{
+   
+    text-decoration: none;
+}
+
+/* Right Sidebar
+-----------------------------------------------------------------------------*/
+.right-sidebar {
+    padding-top: 64px;
+    
+	float: right;
+	margin-right: -391px;
+	width: 391px;
+	position: relative;
+	
+    
+}
+.right-sidebar p{
+    padding: 10px;
+}
+.right-sidebar img{
+    display: inline-block;
+}
+aside.right-sidebar img{
+	width: 220px;
+	height: 160px;
+	float: left;
+    
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 300px;
+	background: #333333;
+    position: relative
+}
+
+
+
+.logotip {
+	width: 270px;
+	height: 45px;
+	position: absolute;
+	left: 85px;
+	top: 509px;
+    font-size: 11px;
+	
+    
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+/* выпадающее меню */
+.menu {
+	width: 678px;
+	height: 96px;
+	position: relative;
+	left: 346px;
+	top: 95px;
+}
+
+.menu ul{
+  padding: 0;
+  margin: 0;
+  display: table;
+  width: 100%;
+    
+}
+.menu li{
+  display: table-cell;
+  width: 195px;
+      
+  text-align: center;
+  position: relative;
+  z-index: 99;
+    
+      
+}
+.menu ul ul {
+  display: block;
+  position: absolute;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.2s 0.2s ease-out;
+      
+}
+.menu ul ul a{
+   background-color: #369;
+    
+}
+
+.menu ul ul a:hover{
+	background-color: #3CCECD;
+	width: 100%;
+	text-align: center;
+}
+.menu ul ul li{
+	display: block;
+	width: 100%;
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  height: 96px;
+  display: inline-block;
+  line-height: 100px;
+  width: 100%;
+  text-transform: uppercase;
+  
+
+    
+}
+. menu a:hover {
+  background-color: #f96;
+}
+.menu li:hover ul {
+  /*display: block;*/
+  height: 288px;
+    
+}
+
+/* конец выпа меню */
+
+.li1 {
+    background: #156d65;
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+.li2{
+    background: #29546d;
+    font-size: 13px;
+    font-weight: 600;
+}
+.li3{
+    background: #8b5644;
+    font-size: 13px;
+    font-weight: 600;
+}
+.li4{
+    background: #9b7171;
+    font-size: 13px;
+    font-weight: 600;
+}
+.form {
+    width: 234px;
+    height: 430px;
+    background: #29546d;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 4.5;
+    position: relative;
+    
+    top: -61px;
+    left: 153px;
+    
+}
+.form:hover{
+    height: 400px;
+    transition: height 0.2s 0.2s ease-out;
+    cursor: pointer;
+    z-index: 99;
+}
+
+
+/* Cначала обозначаем стили для IE8 и более старых версий
+т.е. здесь мы немного облагораживаем стандартный чекбокс. */
+.checkbox {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+    
+}
+/* Это для всех браузеров, кроме совсем старых, которые не поддерживают
+селекторы с плюсом. Показываем, что label кликабелен. */
+.checkbox + label {
+  cursor: pointer;
+}
+
+/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+в них все нижеследующие стили не сработают. */
+
+/* Прячем оригинальный чекбокс. */
+.checkbox:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.checkbox:not(checked) + label {
+  position: relative; /* будем позиционировать псевдочекбокс относительно label */
+  padding: 0 0 0 60px; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.checkbox:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 50px;
+  height: 26px;
+  border-radius: 13px;
+  background: #CDD1DA;
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+/* Меняем фон чекбокса, когда он включен. */
+.checkbox:checked + label:before {
+  background: sienna;
+}
+/* Сдвигаем переключатель чекбокса, когда он включен. */
+.checkbox:checked + label:after {
+  left: 26px;
+}
+/* Показываем получение фокуса. */
+.checkbox:focus + label:before {
+  box-shadow: 0 0 0 3px #fff;
+}
+/* стоп оформление чекбокс  */
+
+
+
+
+/*                    ЧЕКБОКС 2                                                          Cначала обозначаем стили для IE8 и более старых версий
+т.е. здесь мы немного облагораживаем стандартный чекбокс. */
+.checkbox2 {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+    
+}
+/* Это для всех браузеров, кроме совсем старых, которые не поддерживают
+селекторы с плюсом. Показываем, что label кликабелен. */
+.checkbox2 + label {
+  cursor: pointer;
+}
+
+/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+в них все нижеследующие стили не сработают. */
+
+/* Прячем оригинальный чекбокс. */
+.checkbox2:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.checkbox2:not(checked) + label {
+  position: relative; /* будем позиционировать псевдочекбокс относительно label */
+  padding: 0 0 0 60px; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.checkbox2:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 50px;
+  height: 26px;
+  border-radius: 13px;
+  background: #CDD1DA;
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox2:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+/* Меняем фон чекбокса, когда он включен. */
+.checkbox2:checked + label:before {
+  background: sienna;
+}
+/* Сдвигаем переключатель чекбокса, когда он включен. */
+.checkbox2:checked + label:after {
+  left: 26px;
+}
+/* Показываем получение фокуса. */
+.checkbox2:focus + label:before {
+  box-shadow: 0 0 0 3px #fff;
+}
+/* стоп оформление чекбокс  */
+
+/*
+.radio {
+  vertical-align: top;
+  width: 17px;
+  height: 17px;
+  margin: 0 3px 0 0;
+    display: block;
+}
+.radio + label {
+  cursor: pointer;
+}
+.radio:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.radio:not(checked) + label {
+  position: relative;
+  padding: 0 0 0 35px;
+}
+.radio:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #CDD1DA;
+  border-radius: 50%;
+  background: #FFF;
+}
+.radio:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #9FD468;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+  opacity: 0;
+  transition: all .2s;
+}
+.radio:checked + label:after {
+  opacity: 1;
+}
+.radio:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(255,255,0,.5);
+} */
+
+/* стоп оформление радио */
+.row{
+    
+}
+    form{
+        line-height: 2.5;
+        text-align: left;
+        padding-left: 25px;
+}
+
+.right-sidebar img{
+    margin: 5px ;
+}
+.menu2 {
+    width: 115px;
+    height: 50px;
+    border-bottom: 1px solid #fff;
+    
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    line-height: 4;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 5.9px;
+     
+}
+.menu2 a{
+   
+    
+   text-decoration: none;
+}
+    
+    
+    
+}
+.fig img{
+    height: 250px;
+    
+}
+figcaption{
+    text-align: center;
+    line-height: 3;
+    font-size: 16px;
+   
+    height: 50px;
+    background: #333333;
+    color: azure;
+    font-weight: 600;
+    position: relative;
+    top: -13px;
+    left: 1px;
+    
+}
+
+div.fig {
+    position: relative;
+    top: -17px;
+}
+
+    
+
+div.fig p{
+    text-align: center;
+    font-size: 14px;
+    width: 250px;;
+    height: 30px;
+    background: #333333;
+    color: #fff;
+    display:block;
+    position: absolute;
+    left: 68px;
+    top: 3px;
+    border-radius: 6px;
+    line-height: 2;
+    border: 4px solid #fff;
+}
+#item_7 img{
+    width: 375px;
+}
+#item_15 img{
+    width: 375px;
+}
+
+#sss{
+    width: 600px;
+    height: 400px;
+    border: 1px solid #000;
+    background: #fff;
+    position: absolute;
+    top: 450px;
+    left: 700px;
+    z-index: 555;
+    display: none;
+    
+}
+#sss:hover{
+    display: block;
+}
+
+.fotka {
+	width: 380px;
+	height: 307px;
+	font-size: 13px;
+	display: inline-block;
+	color: #fff;
+	position: relative;
+	left: -14px;
+	top: -12px;
+}
+
+.fotka ul{
+	width: 367px;
+	/* [disabled]position: relative; */
+	left: 200px;
+	top: 270px;
+	font-size: 11px;
+	font-weight: 600;
+	background: #333333;
+	list-style-type: none;
+	z-index: 999;
+}
+ #upbutton {
+    background: url("../img/up1.png") no-repeat top left;
+    height: 40px;
+    width: 100px;
+    bottom: 30px;
+    right: 90px;
+    cursor: pointer;
+   
+    position: fixed;
+    z-index: 999;
+  }
+.icon {
+	position: absolute;
+	top: 252px;
+	left: 781px;
+	/* [disabled]background-size: 52px 34px; */
+    
+    
+    
+}
+.icon img{
+	width: 40px;
+	margin-left: 5px;
+    
+}
+ .podp{
+    position: absolute;
+    left: 15px;
+    top:209px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+     
+    
+}
+
+.podp ul{
+    list-style-type: none;
+}
+.podp a{
+    color: #fff;
+    font-size: 16px;
+}
+ .menf {
+    width: 290px;
+    float: left;
+    margin-top: 10px;
+     
+     
+}
+.menf a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.temam {
+    position: relative;
+    left: 270px;
+    list-style-type: square;
+    letter-spacing: 0.6;
+    color: red;
+}
+.temam a{
+    
+}
+
+h1{
+    font-family: 'Coiny', cursive;
+    display: block;
+}
+.ulul {
+    position: relative;
+    left: 270px;
+    list-style-type: none;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
