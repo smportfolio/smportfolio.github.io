@@ -1,0 +1,68 @@
+div.wrapper{
+	width: 700px;
+	margin: 0 auto;
+}
+div.slaid{
+	display: none;
+}
+div#headermain{
+	width: 100%;
+	position: static;
+}
+div .left-sidebar{
+	width: 140px;
+	border-top: none;
+
+
+}
+div.header{
+width: 700px;
+
+}
+div.fotosl{
+
+
+
+}
+div ul li{
+
+
+
+}
+div.middle{
+	width: 700px;
+
+
+}
+div.content{
+
+	padding: 5px 30px 40px 260px;
+}
+
+div#nav{
+	width: 100px;
+	padding: 5px;
+	position: static;
+
+}
+div#nav ul li a{
+  width: 100px;
+
+} 
+div.container{
+ overflow: visible;
+ left:-100px;
+
+}
+div.footer{
+	width: 700px;
+}
+h3,h1{
+	width: 500px;
+}
+div#tel{
+ width: 194px;
+ height: 20px;
+ left:480px;
+
+}
