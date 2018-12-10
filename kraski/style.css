@@ -332,5 +332,14 @@ padding: 10px;
  	
  	
  }
+.block {
+    position: fixed;
+    display: block;
+    width: 200px;
+    height: 200px;
+    top: 38%;
+    opacity: 0.4;
+}
+
 
  
